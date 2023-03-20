@@ -42,3 +42,11 @@
 0:0:0:0:0:0:0:1 - - [17/Mar/2023:14:53:04 +0900] "GET /favicon.ico HTTP/1.1" 404 818
 0:0:0:0:0:0:0:1 - - [17/Mar/2023:14:53:40 +0900] "GET /ServletProject1/ HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [17/Mar/2023:14:53:48 +0900] "GET /ServletProject1/example2.do?orderer=123&type=hot&coffee=%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%97%B4&opt=shot1 HTTP/1.1" 404 838
+127.0.0.1 - - [17/Mar/2023:15:03:23 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:24 +0900] "GET /ServletProject1/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:31 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=hot&coffee=%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8&opt=shot1 HTTP/1.1" 200 245
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:39 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=hot&coffee=%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8&opt=shot1&opt=shot2&opt=softly HTTP/1.1" 200 285
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:43 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=ice&coffee=%EC%B4%88%EC%BD%94%EC%B9%A9%ED%94%84%EB%9D%BC%ED%8E%98&opt=shot1&opt=shot2&opt=softly HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:47 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=hot&coffee=%EC%B4%88%EC%BD%94%EC%B9%A9%ED%94%84%EB%9D%BC%ED%8E%98&opt=shot1&opt=shot2&opt=softly HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:03:50 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=ice&coffee=%EC%B4%88%EC%BD%94%EC%B9%A9%ED%94%84%EB%9D%BC%ED%8E%98&opt=shot1&opt=shot2&opt=softly HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:15:04:26 +0900] "GET /ServletProject1/example2.do?orderer=%ED%99%8D%EA%B8%B8%EB%8F%99&type=hot&coffee=%EC%B4%88%EC%BD%94%EC%B9%A9%ED%94%84%EB%9D%BC%ED%8E%98&opt=shot1&opt=shot2&opt=softly HTTP/1.1" 200 288
