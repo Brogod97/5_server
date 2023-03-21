@@ -65,6 +65,10 @@ public class ELTestServlet extends HttpServlet{
 		List<String> list4 = new ArrayList<>(); // 값이 있는 리스트
 		list4.add("테스트");
 		
+		req.setAttribute("list2", list2);
+		req.setAttribute("list3", list3);
+		req.setAttribute("list4", list4);
+		
 		// JSP로 요청 위임
 		dispatcher.forward(req, resp);
 	}

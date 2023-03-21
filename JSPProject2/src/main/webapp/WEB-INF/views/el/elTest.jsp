@@ -10,9 +10,9 @@ pageEncoding="UTF-8" %>
     <title>1. EL</title>
   </head>
   <body>
-  	<h1>EL (Expression Language)</h1>
-  	
-  	<pre>
+    <h1>EL (Expression Language)</h1>
+
+    <pre>
   		JSP의 표현식을
   		조금 더 효율적으로 간단히 작성할 수 있도록 고안된 표현 언어.
   		
@@ -31,21 +31,28 @@ pageEncoding="UTF-8" %>
   		2. EL은 null을 빈칸으로 처리한다.
   		\${ null인 변수 } => 빈칸 출력
   		\${ NullPointerException 발생 코드 } => 빈칸 출력(예외 발생 X)
-  	</pre>
+  	</pre
+    >
 
-	테스트1 : <%= request.getParameter("test") %> <br>
-	테스트2 : ${ param.test } <br>
-  
-  
-  	<form action="/JSPProject2/elTest" method="post">
-  		이름 : <input type="text" name="inputName"> <br>
-  		
-  		나이 : <input type="number" name="inputAge"> <br>
-  		
-  		주소 : <input type="text" name="inputAddress" size="50"> <br>
-  		
-  		<button>제출하기</button>
-  	</form>
-	
+    테스트1 : <%= request.getParameter("test") %> <br />
+    테스트2 : ${ param.test } <br />
+
+    <form action="/JSPProject2/elTest" method="post">
+      이름 : <input type="text" name="inputName" /> <br />
+
+      나이 : <input type="number" name="inputAge" /> <br />
+
+      주소 : <input type="text" name="inputAddress" size="50" /> <br />
+
+      <button>제출하기</button>
+    </form>
+
+    <hr />
+
+    <ul>
+      <li>request scope message : ${message}</li>
+      <li>session scope sessionValue : ${sessionValue}</li>
+      <li>application scope appValue : ${appValue}</li>
+    </ul>
   </body>
 </html>
